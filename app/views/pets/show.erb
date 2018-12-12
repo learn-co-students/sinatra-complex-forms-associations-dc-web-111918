@@ -1,1 +1,9 @@
-show.erb
+<h1><%=@pet.name%></h1>
+<h4>Owner: <%=@pet.owner.name%></h4>
+
+<a href="/pets/<%=@pet.id%>/edit">Edit Pet</a>
+<br>
+<br>
+<a href="/pets">Pets Index</a>
+<br>
+<a href="/owners">Owners Index</a>
